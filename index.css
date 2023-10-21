@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(244, 168, 168);
+    margin: 10px;
+}
+h1 {
+    background-color: rgb(189, 146, 130);
+    color: white;
+    text-align: center;
+    margin-left: 560px;
+    margin-right: 560px;
+    border-radius: 50px;
+}
+.form {
+    background-color: brown;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 20px;
+}
+.nav {
+    text-align: center;
+    margin-top: 30px;
+}

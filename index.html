@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>My Calculator</h1>
+
+    <form class="form" action="" onsubmit="return false">
+        <label for="text">value 1</label>
+        <input class="value1" type="text">
+        
+        <label for="">value 2</label>
+        <input class="value2" type="text">
+        
+        <label for="">value 3</label>
+        <input class="value3" type="text">
+        
+        <label for="">Operator</label>
+        <input class="Operator" type="text">
+    </form>
+<nav class="nav">
+    <select class="opar" name="" id="">
+        <option value="Add">Addition</option>
+        <option value="sub">Subscribe</option>
+        <option value="div">Division</option>
+        <option value="mul">Multiple</option>
+    </select>
+    <button onclick="cal()">Calculator</button>
+</nav>
+    <div class="our_result"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
